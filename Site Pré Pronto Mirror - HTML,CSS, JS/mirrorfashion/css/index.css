@@ -1,0 +1,72 @@
+            .busca,
+            .menu-departamentos {
+                background-color: #DCDCDC;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+                width: 230px;
+            }
+            
+            .busca h2,
+            .busca form,
+            .menu-departamentos h2 {
+                margin: 10px;
+            }
+            
+            .menu-departamentos li {
+                background-color: white;
+                margin-bottom: 1px;
+                padding: 5px 10px;
+            }
+            
+            .menu-departamentos a {
+                color: #333333;
+                text-decoration: none;
+            }
+            
+            .busca input[type=search] {
+                width: 170px;
+            }
+            
+            .busca,
+            .menu-departamentos {
+                float: left;
+            }
+            
+            .menu-departamentos {
+                clear: left;
+            }
+            
+            .destaque {
+                margin-top: 10px;
+            }
+            
+            .menu-departamentos {
+                margin-top: 10px;
+                padding-bottom: 10px;
+            }
+            
+            .destaque {
+                position: relative;
+            }
+            
+            .pause,
+            .play {
+                display: block;
+                position: absolute;
+                right: 15px;
+                top: 15px;
+            }
+            
+            .pause {
+                border-left: 10px solid #900;
+                border-right: 10px solid #900;
+                height: 30px;
+                width: 5px;
+            }
+            
+            .play {
+                border-left: 25px solid #900;
+                border-bottom: 15px solid transparent;
+                border-top: 15px solid transparent;
+            }

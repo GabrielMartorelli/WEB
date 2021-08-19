@@ -1,0 +1,389 @@
+    body {
+        color: grey;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        background-color: grey;
+    }
+    
+    h1 {
+        color: black;
+        padding: 20px;
+        margin-top: auto;
+        text-align: center;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 20px;
+        margin: 0px;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .calc {
+        margin: 0 auto;
+        text-align: 'center'
+    }
+    
+    .button {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin: 2;
+    }
+    
+    .text {
+        width: 211px;
+        height: 30px;
+    }
+    
+    #num1 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num1:hover {
+        transform: scale(1.05);
+    }
+    
+    #num2 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num2:hover {
+        transform: scale(1.05);
+    }
+    
+    #num3 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num3:hover {
+        transform: scale(1.05);
+    }
+    
+    #num4 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num4:hover {
+        transform: scale(1.05);
+    }
+    
+    #num5 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num5:hover {
+        transform: scale(1.05);
+    }
+    
+    #num6 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num6:hover {
+        transform: scale(1.05);
+    }
+    
+    #num7 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num7:hover {
+        transform: scale(1.05);
+    }
+    
+    #num8 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num8:hover {
+        transform: scale(1.05);
+    }
+    
+    #num9 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num9:hover {
+        transform: scale(1.05);
+    }
+    
+    #num0 {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 125px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #num0:hover {
+        transform: scale(1.05);
+    }
+    
+    #igual {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 87px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+        align-self: center;
+    }
+    
+    #igual:hover {
+        transform: scale(1.05);
+    }
+    
+    #apagar {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 85px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+        align-self: center;
+    }
+    
+    #igual:hover {
+        transform: scale(1.05);
+    }
+    
+    #soma {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #soma:hover {
+        transform: scale(1.05);
+    }
+    
+    #subtracao {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 85px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #subtracao:hover {
+        transform: scale(1.05);
+    }
+    
+    #multiplicação {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #multiplicação:hover {
+        transform: scale(1.05);
+    }
+    
+    #divisao {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 85px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+    }
+    
+    #divisao:hover {
+        transform: scale(1.05);
+    }
+    
+    #limpo {
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        color: black;
+        align-self: center;
+    }
+    
+    #limpo:hover {
+        transform: scale(1.05);
+    }
+    
+    #visor {
+        width: 425px;
+        height: 90px;
+        border: solid 1px;
+        border-radius: 20px;
+        background-color: #fff;
+        color: black;
+        margin-left: 415px;
+        margin-right: -415px;
+        margin-top: 30px;
+    }
+    
+    #resultado {
+        text-align: center;
+        margin-top: 30px;
+        margin-right: -40px;
+        margin-left: 40px;
+        width: 80%;
+    }
+    
+    #btn {
+        margin-left: 415px;
+        margin-right: -415px;
+        margin-top: -30px;
+    }

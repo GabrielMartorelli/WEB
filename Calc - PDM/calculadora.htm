@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' lang='pt-br'>
+    <title>Online Calculator</title>
+    <link rel="shortcut icon" href="../Calc - PDM/img/favicon.png">
+    <link rel="stylesheet" href="../Calc - PDM/css/calculadora.css">
+    <script src="../Calc - PDM/js/calculadora.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class='calc'>
+            <form name='corpo'>
+                <div id='visor'>
+                    <input id='resultado' class="text" name='text'>
+                </div>
+
+            </form>
+
+            <table id='btn'>
+                <td>
+                    <input type="button" id='limpo' class='button' onclick="insert('.')" value=".">
+                    <input type='button' id='limpo' class='button' onclick="insert('/')" value='/'>
+                    <input type="button" id='limpo' class='button' onclick="insert('-')" value="-">
+                    <input type="button" id='limpo' class='button' onclick="insert('%')" value="%">
+                    <input type="button" id='multiplicação' class='button' onclick="insert('*')" value="*">
+                </td>
+                <br>
+                <tr>
+                    <td>
+                        <input type="button" id='num7' class='button' onclick="insert(7)" value="7">
+                        <input type="button" id='num8' class='button' onclick="insert(8)" value="8">
+                        <input type="button" id='num9' class='button' onclick="insert(9)" value="9">
+                        <input type="button" id='soma' class='button' onclick="insert('+')" value="+">
+                        <input type="button" id='soma' class='button' onclick="insert('**')" value="**">
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <input type="button" id='num4' class='button' onclick="insert(4)" value="4">
+                        <input type="button" id='num5' class='button' onclick="insert(5)" value="5">
+                        <input type="button" id='num6' class='button' onclick="insert(6)" value="6">
+                        <input type="button" id='subtracao' class='button' onclick='ce()' value="LIMPAR">
+
+
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <input type="button" id='num1' class='button' onclick="insert(1)" value="1">
+                        <input type="button" id='num2' class='button' onclick="insert(2)" value="2">
+                        <input type="button" id='num3' class='button' onclick="insert(3)" value="3">
+                        <input type="button" id='apagar' class='button' onclick='back()' value="APAGAR">
+
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <input type="hidden">
+                        <input type='button' id='igual' class='button' onclick="insert(0)" value='0'>
+                        <input type="button" id='num0' class='button' onclick='igual()' value="=">
+                    </td>
+                </tr>
+            </table>
+        </div>
+</body>
+
+</html>

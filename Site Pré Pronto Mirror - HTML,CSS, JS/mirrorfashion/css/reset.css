@@ -1,0 +1,35 @@
+            .menu-opcoes ul li {
+                display: inline;
+                margin-left: 20px;
+            }
+            
+            .sacola {
+                padding-top: 8px;
+            }
+            
+            .container {
+                margin: 0 auto;
+                width: 940px;
+            }
+            
+            .logotipo {
+                position: relative;
+                top: 20px;
+                left: 50px;
+            }
+            
+            header {
+                position: relative;
+            }
+            
+            .menu-opcoes {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+            
+            .sacola {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
